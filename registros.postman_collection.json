@@ -1,0 +1,595 @@
+{
+	"info": {
+		"_postman_id": "eaed8132-53a9-417f-9ef9-cff3d287e07a",
+		"name": "registros",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33417478"
+	},
+	"item": [
+		{
+			"name": "carro1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "MLZ234",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "carro",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2024-01-19 03:14:07",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "carro2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "KDE344",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "carro",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2024-03-02 03:14:07",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "carro3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "RDN561",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "carro",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2024-02-21 14:20:07",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "carro4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "DHX190",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "carro",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2023-02-21 14:20:07",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "carro5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "BSL744",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "carro",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2024-03-16 14:20:07",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "moto1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "WZZ461",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "moto",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2024-03-06 05:30:07",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "moto2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "GIK673",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "moto",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2024-01-06 05:30:07",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "moto3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "KFG148",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "moto",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2023-12-30 23:30:15",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "moto4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "OFU126",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "moto",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2023-11-14 23:30:15",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "moto5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "TSH314",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "moto",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2023-02-14 21:15:15",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "moto6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "FTQ501",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "moto",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2023-09-18 12:25:16",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "moto7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "JUF117",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "moto",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2024-01-18 6:25:16",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "moto8",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "DYV785",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "moto",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2024-01-31 15:10:16",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "moto9",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "ZWW875",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "moto",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2023-08-03 07:18:02",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "moto10",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "placa",
+							"value": "OTO392",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "moto",
+							"type": "text"
+						},
+						{
+							"key": "tiempo",
+							"value": "2023-08-03 07:18:02",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"registros"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
