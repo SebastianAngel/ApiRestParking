@@ -12,7 +12,7 @@
 - MySql
 
 
-## Getting Started
+## Inicio
 
 Para obtener una copia local, seguir los siguientes pasos
 
@@ -23,7 +23,7 @@ Para obtener una copia local, seguir los siguientes pasos
 --Composer 
 --Text editor (VsCode)
 
-### Instalacion
+### Instalación
 
 1. Clonar el repositorio
    ```sh
@@ -41,7 +41,7 @@ Para obtener una copia local, seguir los siguientes pasos
 
 ### Uso
 
-1.Arrancarl el proyecto
+1.Arrancar el proyecto
 
 ```sh
  npm run start
@@ -49,7 +49,7 @@ Para obtener una copia local, seguir los siguientes pasos
 
 ## Autor
 
-👤 **Sebastian Angel Marin**
+👤 **Sebastián Ángel Marín**
 
 - GitHub: [@SebastianAngel]((https://github.com/SebastianAngel))
 
